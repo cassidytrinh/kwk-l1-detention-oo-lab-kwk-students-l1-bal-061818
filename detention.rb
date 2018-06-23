@@ -30,4 +30,21 @@ class Detention
     @grumpy_teacher
   end
 
-  
+  def activity=(activity)
+    @activity = activity
+  end
+
+  def activity
+    @activity
+  end
+
+  def students
+    @students
+  end
+
+  def add_student(student)
+    @students.push(student)
+  end
+
+  def remove_student(student)
+    
