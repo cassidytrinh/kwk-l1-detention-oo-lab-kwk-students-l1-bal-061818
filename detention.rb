@@ -2,8 +2,9 @@
 class Detention
   attr_accessor :location, :time, :grumpy_teacher, :activity, :students
 
-  def initialize(activity)
-    @activity = activity
+  def initialize
+    @activity = "collective punishment"
+  end
 
   def location=(location)
     @location = location
